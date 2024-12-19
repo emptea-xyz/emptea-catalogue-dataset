@@ -1,1 +1,87 @@
-
+[
+  {
+    "id": "phantom",
+    "name": "Phantom",
+    "description": "A friendly, secure, and feature-rich crypto wallet built for Solana.",
+    "category": "Wallet",
+    "image": "phantom.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://phantom.app"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/phantom"
+      }
+    ]
+  },
+  {
+    "id": "magiceden",
+    "name": "Magic Eden",
+    "description": "The leading NFT marketplace on Solana.",
+    "category": "NFT Marketplace", 
+    "image": "magiceden.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://magiceden.io"
+      },
+      {
+        "name": "Twitter", 
+        "url": "https://twitter.com/magiceden"
+      }
+    ]
+  },
+  {
+    "id": "orca",
+    "name": "Orca",
+    "description": "User-friendly decentralized exchange.",
+    "category": "DeFi",
+    "image": "orca.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://orca.so"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/orca_so"
+      }
+    ]
+  },
+  {
+    "id": "raydium",
+    "name": "Raydium",
+    "description": "Advanced DeFi platform providing automated market making.",
+    "category": "DeFi",
+    "image": "raydium.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://raydium.io"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/raydiumprotocol"
+      }
+    ]
+  },
+  {
+    "id": "stepfinance",
+    "name": "Step Finance",
+    "description": "Portfolio management dashboard for Solana.",
+    "category": "DeFi",
+    "image": "stepfinance.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://step.finance"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/stepfinance_"
+      }
+    ]
+  }
+]
