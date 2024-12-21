@@ -1,14 +1,48 @@
 [
   {
-    "id": "phantom",
-    "name": "Phantom",
-    "description": "A friendly, secure, and feature-rich crypto wallet built for Solana.",
-    "category": "Wallet",
-    "image": "phantom.png",
+    "id": "jupiter_exchange",
+    "name": "Jupiter Exchange",
+    "description": "Decentralized exchange aggregator with the best swap rates.",
+    "category": ["DeFi", "Aggregator"],
+    "image": "https://example.com/images/jupiter_exchange.png",
     "links": [
       {
         "name": "Website",
-        "url": "https://phantom.app"
+        "url": "https://jup.ag/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/JupiterExchange"
+      }
+    ]
+  },
+  {
+    "id": "magic_eden",
+    "name": "Magic Eden",
+    "description": "Popular NFT marketplace for digital collectibles.",
+    "category": ["NFT", "Marketplace"],
+    "image": "https://example.com/images/magic_eden.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://magiceden.io/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/MagicEden"
+      }
+    ]
+  },
+  {
+    "id": "phantom_wallet",
+    "name": "Phantom Wallet",
+    "description": "User-friendly wallet for the Solana ecosystem.",
+    "category": ["Wallet", "Tools"],
+    "image": "https://example.com/images/phantom_wallet.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://phantom.app/"
       },
       {
         "name": "Twitter",
@@ -17,70 +51,121 @@
     ]
   },
   {
-    "id": "magiceden",
-    "name": "Magic Eden",
-    "description": "The leading NFT marketplace on Solana.",
-    "category": "NFT Marketplace", 
-    "image": "magiceden.png",
-    "links": [
-      {
-        "name": "Website",
-        "url": "https://magiceden.io"
-      },
-      {
-        "name": "Twitter", 
-        "url": "https://twitter.com/magiceden"
-      }
-    ]
-  },
-  {
-    "id": "orca",
-    "name": "Orca",
-    "description": "User-friendly decentralized exchange.",
-    "category": "DeFi",
-    "image": "orca.png",
-    "links": [
-      {
-        "name": "Website",
-        "url": "https://orca.so"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/orca_so"
-      }
-    ]
-  },
-  {
     "id": "raydium",
     "name": "Raydium",
-    "description": "Advanced DeFi platform providing automated market making.",
-    "category": "DeFi",
-    "image": "raydium.png",
+    "description": "AMM and liquidity provider on Solana.",
+    "category": ["DeFi", "AMM", "Liquidity"],
+    "image": "https://example.com/images/raydium.png",
     "links": [
       {
         "name": "Website",
-        "url": "https://raydium.io"
+        "url": "https://raydium.io/"
       },
       {
         "name": "Twitter",
-        "url": "https://twitter.com/raydiumprotocol"
+        "url": "https://twitter.com/RaydiumProtocol"
       }
     ]
   },
   {
-    "id": "stepfinance",
-    "name": "Step Finance",
-    "description": "Portfolio management dashboard for Solana.",
-    "category": "DeFi",
-    "image": "stepfinance.png",
+    "id": "solana_beach",
+    "name": "Solana Beach",
+    "description": "Explorer for Solana transactions and validators.",
+    "category": ["Explorer", "Analytics"],
+    "image": "https://example.com/images/solana_beach.png",
     "links": [
       {
         "name": "Website",
-        "url": "https://step.finance"
+        "url": "https://solanabeach.io/"
       },
       {
         "name": "Twitter",
-        "url": "https://twitter.com/stepfinance_"
+        "url": "https://twitter.com/solanabeach_io"
+      }
+    ]
+  },
+  {
+    "id": "solend",
+    "name": "Solend",
+    "description": "Lending and borrowing protocol on Solana.",
+    "category": ["DeFi", "Lending"],
+    "image": "https://example.com/images/solend.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://solend.fi/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/solendprotocol"
+      }
+    ]
+  },
+  {
+    "id": "solflare_wallet",
+    "name": "Solflare Wallet",
+    "description": "Comprehensive wallet for Solana users.",
+    "category": ["Wallet", "Tools"],
+    "image": "https://example.com/images/solflare_wallet.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://solflare.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/solflare_wallet"
+      }
+    ]
+  },
+  {
+    "id": "solsea",
+    "name": "Solsea",
+    "description": "NFT marketplace with license embedding.",
+    "category": ["NFT", "Marketplace"],
+    "image": "https://example.com/images/solsea.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://solsea.io/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/SolSeaNFT"
+      }
+    ]
+  },
+  {
+    "id": "step_finance",
+    "name": "Step Finance",
+    "description": "DeFi dashboard for Solana portfolios.",
+    "category": ["DeFi", "Analytics", "Portfolio"],
+    "image": "https://example.com/images/step_finance.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://step.finance/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/StepFinance_"
+      }
+    ]
+  },
+  {
+    "id": "wormhole",
+    "name": "Wormhole",
+    "description": "Cross-chain bridge for asset transfers.",
+    "category": ["Infrastructure", "Cross-Chain"],
+    "image": "https://example.com/images/wormhole.png",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://wormhole.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/wormholecrypto"
       }
     ]
   }
